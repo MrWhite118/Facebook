@@ -105,7 +105,7 @@ $("#back").on('click', function () {
 
    // owl carousel script
    $('.carousel').owlCarousel({
-    margin: -110,
+    margin: -9,
     loop: false,
     autoplay: false,
     autoplayTimeOut: 2000,
