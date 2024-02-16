@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+
+.active {
+   color: blue;
+}
+.tp_icons span{
+    padding: 7px;
+    background-color: #2e2929;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.sus button {
+    padding: 5px 8px;
+    background-color: #2e2929;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#new_mess {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.sus {
+    margin: 10px;
+}
+
+.fri {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+}
+.pla {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+    color: #555;
+    border-bottom: 1px solid #111111;
+}
+.mark {
+    display: grid;
+    padding: 4px 10px;
+}
+
+.mark button, .mark h5 {
+    padding: 4px;
+    background-color: #2e2929;
+    margin-top: 5px;
+    border: none;
+}
+
+.mark button { 
+    color: rgb(0, 140, 255);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.whats input{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid gray;
+    margin: 10px;
+    margin-top: -3px;
+    border-radius: 40px;
+    padding: 10px 15px;
+    height: 20px;
+}
+.whats input:focus{
+    outline: none;
+}
+.whats {
+    display: flex;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+#me{
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.whats span {
+    margin-top: 5px;
+}
+
+.pho {
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ .card{
+    width: 90px;
+    height: 150px;
+    background: #131212;
+    border-radius: 6px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+
+  
+}
+
+.card span {
+    position: absolute;
+    background-color: blue;
+    padding: 3px;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    left: 5px;
+    top: 10px;
+    color: white;
+}
+.card p {
+    position: absolute;
+    padding: 5px;
+    left: 2px;
+    bottom: 3px;
+    color: white;
+}
+
+.add p {
+    margin-left: 15px;
+}
+
+#add_story {
+    border-radius: 100%;
+    top: 75px;
+    /* position: absolute; */
+    background-color: blue;
+    font-size: 15px;
+    padding: 7px;
+    left: 30px;
+}
+
+.young {
+    background: url('../Images/sancho-reus-celebration-bvb-m05.jpg') no-repeat;
+    background-size: cover;
+    background-position-x: -40px;
+}
+
+.card:active {
+    color: red;
+}
+
+
+
+.wr {
+    font-size: 14px;
+}
+
+span {
+    cursor: pointer;
+}
+
+.container.home {
+    margin-right: -300px;
+    z-index: 999;
+    transition: 0.5s;
+
+}
+.container.message {
+    margin-left: -300px;
+
+}
+.container.video {
+    margin-left: -300px;
+
+}
+.container.marketplace {
+    margin-left: -300px;
+
+}
+.container.notifications {
+    margin-left: -300px;
+
+}
+.container.friends {
+    margin-left: -300px;
+}
+
+.container {
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    border-radius: 20px;    
+    margin-top: 60px;
+    color: white;
+    overflow: hidden;
+    z-index: 999;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    background-color: #000;
+}
+.tops {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    background-color: #000;
+}
+
+#back {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #3e3eb9;
+}
+
+.cover {
+    background: url('../Images/sancho-reus-celebration-bvb-m05.jpg');
+    height: 130px;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.fa-camera {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+#fcamera {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.profile {
+    background: url('../Images/Screenshot-2024-01-06-163858-678x381.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 100%;
+    background-position-x: -50px;
+    background-position-y: 10px;
+    border: 2px solid gray;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#scamera {
+    position: absolute;
+    left: 60px;
+    bottom: 5px;
+}
+
+#GG {
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#no {
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-weight: 600;
+}
+
+#fol {
+    color: grey;
+    position: relative;
+    left: 45px;
+    bottom: 14px;
+    font-weight: 500;
+    
+}
+
+#no2 {
+    color: white;
+    position: relative;
+    left: 130px;
+    top: -39px;
+    font-weight: 600;
+}
+
+#fol2 {
+    color: grey;
+    position: absolute;
+    left: 142px;
+    bottom: -93px;
+    font-weight: 500;
+    
+}
+
+.images {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: unset;
+    
+}
+
+.quote {
+    margin: 5px;
+    padding: 0px;
+    font-weight: 400;
+}
+
+#message {
+    width: 210px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    outline-color: blue;
+}
+
+
+
+.container.p_page {
+    z-index: 1;
+    margin-left: -1px;
+}
+
+
